@@ -1,0 +1,225 @@
+@media  screen and (min-width:1200px) {
+
+    /* -------slider------- */
+    .banner img{
+        height: 650px;
+        object-fit: cover;
+    }
+    
+    .pin img{
+        width: 5%;
+    }
+    .pin::after,
+    .pin:before{
+        width: 4%;
+        left: 48%;
+    }
+    
+}
+@media  screen and (min-width:992px) and (max-width:1199px) {
+    /* ---------slider--------- */
+    .banner img{
+        /* height: 580px;
+        object-fit: cover; */
+    }
+    .slider_title p{
+        font-size: 16px;
+        text-align: start !important;
+        display: grid;
+        margin-right: 40%;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 20%;
+        padding-right: 35%;
+    }
+     /* --------Feature------ */
+     .bike-img{
+        margin-top: 41%;
+    }
+    /* -----stay connected--- */
+    
+}
+@media  screen and (min-width:785px) and (max-width:991px){
+    .carousel-caption{
+        max-width: 540px;
+        top: 18%;
+        position: absolute;
+        padding-right: 20%;
+    }
+    .slider_title .h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .slider_title p{
+        font-size: 14px;
+        text-align: start !important;
+        display: grid;
+    }
+    .btn1{
+        font-size: 12px;
+        padding: 10px 20px;
+        height: 40px;
+        text-align: center;
+    }
+    .btn2{
+        font-size: 12px;
+        padding: 10px 20px;
+        height: 40px;
+        text-align: center;
+    }
+    /* ------about us----- */
+
+    .our_para1{
+        margin-bottom: 20px;
+    }
+     /* --------Feature------ */
+     .bike-img{
+        margin-top: 95%;
+    }
+    
+}
+@media  screen and (min-width:575px ) and (max-width:784px) {
+    .slider_title{
+        max-width: 360px;
+        margin: auto;
+        font-size: 16px;
+    }
+    .carousel-caption{
+        max-width: 540px;
+        top: 15%;
+        position: absolute;
+        padding-right: 20%;
+    }
+    .slider_title .h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .slider_title p{
+        font-size: 12px;
+        text-align: start !important;
+        display: grid;
+    }
+    .btn1{
+        font-size: 10px;
+        padding: 7px 15px;
+        height: 30px;
+        text-align: center;
+    }
+    .btn2{
+        font-size: 10px;
+        padding: 7px 15px;
+        height: 30px;
+        text-align: center;
+    }
+    .header_123{
+        display: flex;
+    }
+    .top-info{
+        display: flex !important;
+    }
+    /* --------Feature------ */
+    .bike-img{
+        margin-top: 100%;
+    }
+    /* ------about us----- */
+
+    .our_para1{
+        margin-bottom: 20px;
+    }
+    .about_us_img{
+        align-items: center !important;
+        margin-top: 40px;
+    }
+
+    /* -----booking now----- */
+
+    .book_title h2{
+        font-size: 25px;
+    }
+    
+    /* ------stay connected----- */
+    .map{
+        width: 50%;
+        height: 50%;
+    }
+    /* ------footer------ */
+    .f1-text{
+        margin-top: 30px;
+    }
+}
+@media  screen and (max-width:574px) {
+    .header_123{
+        font-size: 16px;
+    }
+    .header_123{
+        display: block !important;
+    }
+    .nav-link li a{
+        font-size: 16px;
+        padding: 5px 5px !important;
+    }
+
+    /* --------slider------ */
+    .carousel-caption{
+        max-width: 540px;
+        top: 10%;
+        position: absolute;
+        padding-right: 20%;
+    }
+    .slider_title .h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .slider_title p{
+        font-size: 8px;
+        text-align: start !important;
+        display: grid;
+    }
+    .btn1{
+        font-size: 8px;
+        padding: 5px 10px;
+        height: 23px;
+        text-align: center;
+    }
+    .btn2{
+        font-size: 8px;
+        padding: 5px 10px;
+        height: 23px;
+        text-align: center;
+    }
+   
+    /* --------our_sev-------- */
+    .about_us_img img{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .our_box1{
+        margin-top: 10px;
+    }
+
+   
+
+    /* ------card------ */
+
+    .card{
+        padding: 20px 10px;
+        width: 20rem;
+    }
+
+    /* ------booking now----- */
+    .book_title{
+        max-width: 300px;
+    }
+    .book_title h2{
+        font-size: 25px;
+    }
+    .book_title button{
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+    /* ------footer------ */
+    .f1-text{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,451 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.spacer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+/* --------HEADER--------- */
+
+.top_social a{
+    margin-left: 13px;
+    font-size: 20px;
+}
+.top_social a:hover{
+    color: black;
+
+}
+
+.logo{
+    font-size: 23px;
+    margin-left: -17px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #E52C29;
+}
+.nav-link li {
+    position: relative;
+}
+.nav-link  li a{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #18222c;
+    padding: 23px 10px !important;
+}
+.main_menu .nav-link li.active a{
+    color: #f47629 !important;
+}
+.navbar-nav .nav-link li :hover{
+    color: #f47629 !important;
+    transition: 0.7s;
+}
+.bg-colour{
+    background-color: #f47629;
+}
+
+
+/* -------SLIDER--------- */
+
+.slider1{
+    position: relative;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    padding-right: 40%;
+}
+.h1{
+    display: grid;
+    justify-items: start;
+}
+.p1{
+    display: grid;
+    justify-items: start;
+    
+}
+.btn1{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    background-color: #FA7E1E;
+    padding: 14px 22px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: grid;
+    justify-items: start;
+    border-radius: 8px;
+}
+.btn1::after{
+    content: '';
+    height: 100%;
+    width: 0;
+    background-color: #be6724;
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    
+}
+.btn1:hover::after{
+    width: 100%;
+
+}
+button span{
+    position: relative;
+    z-index: 1;
+}
+.btn2{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+    background-color: #FA7E1E;
+    padding: 14px 22px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: grid;
+    justify-items: start;
+    border-radius: 8px;
+}
+.btn2::after{
+    content: '';
+    height: 100%;
+    width: 0;
+    background-color: #be6724;
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    
+}
+.btn2:hover::after{
+    width: 100%;
+
+}
+
+/* ------our_service------- */
+
+.our_para{
+    border: 1px solid rgb(243, 239, 239);
+    box-shadow: 3px 5px 30px 0px #e5e2e2;
+}
+.our_para_icon{
+    font-size: 40px;
+    color: #FA7E1E;
+    transition: 2s;
+    align-content: center !important;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+.our_para a{
+    font-size: 22px;
+    font-weight: bold;
+}
+.our_para{
+    padding: 20px 35px;
+    position: relative;
+}
+.our_para p{
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.our_box{
+    position: relative;
+}
+.our_box:hover .our_para_contact > .our_para_icon,
+.our_box:hover .our_para_tx > a,
+.our_box:hover .our_para_tx > p{
+    color: white;
+}
+.our_para::before{
+    content: '';
+    position: absolute;
+    transition: .5s;
+    color: white;
+    width: 0;
+    height: 100%;
+    background-color: #FA7E1E;
+    transition: 1s;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.our_para:hover::before{
+    width: 100%;
+}
+
+/* --------About_us------- */
+.bg-clr{
+    background-color: #e4ecf4;
+}
+.about_us h3{
+    color: #FA7E1E;
+    padding-bottom: 10px;
+}
+.about_us h2{
+    padding-bottom: 10px;
+}
+.about_us p{
+    color: #8d7b7b;
+    padding-bottom: 20px;
+}
+
+.our_para1{
+    padding: 20px 35px;
+    border: 1px solid rgb(243, 239, 239);
+    box-shadow: 1px 5px 30px 0px  #e5e2e2;
+    text-align: center !important;
+    background-color: white;
+}
+.our_para_icon1{
+    font-size: 45px;
+    color: #FA7E1E;
+    transition: 2s;
+    margin-bottom: 8px;
+}
+.our_para1 a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* -------about_us------- */
+
+.about_us{
+    margin-right: 70px;
+}
+.imgg{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* --------card------- */
+.menu{
+    font-family:  'Berkshire Swash', cursive;
+    color: #FA7E1E;
+    text-align: center;
+    margin-top: 80px;
+}
+.ooo{
+    font-family:  'Berkshire Swash', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    
+}
+.hh1{
+    font-family:  'Berkshire Swash', cursive;
+    font-weight: 600;
+    text-align: center;
+}
+.pp1{
+    text-align: center;
+}
+.hh2{
+    font-weight: bold;
+    color: #FA7E1E;
+    font-size: 18px;
+    text-align: center;
+}
+.star{
+    text-align: center;
+    font-size: 20px;
+    color: #496DFF;
+}
+.bag_btn{
+    background-color: #FA7E1E;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.bag_btn:hover{
+    background-color: #496DFF;
+    transition: .7s;
+}
+
+
+/* --------Feature------- */
+
+.box1{
+    box-shadow: 1px 5px 30px 0px #dad5d5;
+    padding: 25px 30px;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: left;
+    margin-top: 20px;
+}
+.fas{
+    background-color: #FA7E1E;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
+.bike-img{
+    max-width: 100%;
+    justify-content: center !important;
+    margin-top: 15%;
+}
+.h33{
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+/* --------booking now------ */
+
+.bgimg_book{
+    background: url('../src/image/10.jpg') , rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 110px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.book_title{
+    max-width: 900px;
+    margin: auto;
+}
+.book_title h2{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.btn3{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    background-color: #FA7E1E;
+    padding: 14px 22px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.btn3::after{
+    content: '';
+    height: 100%;
+    width: 0;
+    background-color: #be6724;
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    
+}
+.btn3:hover::after{
+    width: 100%;
+
+}
+button span{
+    position: relative;
+    z-index: 1;
+}
+
+/* -------Stay_connected---- */
+
+.form1{
+    gap: 10px;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+}
+.form1 .form-control{
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn4{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    background-color: #FA7E1E;
+    padding: 14px 22px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-top: -5px;
+}
+
+/* ---------foooter--------- */
+
+.bg-fclr{
+    background-color: #18222C;
+    color: white;
+}
+.logo2{
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #E52C29;
+}
+.p3{
+    margin-top: 30px;
+}
+.f-text{
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.f1-text{
+    font-size: 18px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.r:hover{
+    color: #FA7E1E;
+    padding-left: 2px;
+    transition: .3s;
+}
+
